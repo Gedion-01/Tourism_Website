@@ -9,12 +9,11 @@ export function Header() {
 
   const getLinkClass = (path) => {
     return location.pathname === path
-      ? "text-yellow-400"
-      : "hover:text-yellow-400 transition duration-300";
+      ? "text-yellow-400 font-bold"
+      : "hover:text-yellow-400 transition duration-300 font-bold";
   };
   return (
     <>
-      {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-opacity-50 backdrop-blur-md">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold">
@@ -36,7 +35,6 @@ export function Header() {
           </button>
         </div>
       </nav>
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isMenuOpen && (
           <motion.div

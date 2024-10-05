@@ -35,7 +35,7 @@ export default function AboutPage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
-          src="https://utfs.io/f/vo0v5IWMut3gTtjV6jAfSbeHlYRJL2igy1Q3KZUaVqOd9shX"
+          src="https://utfs.io/f/vo0v5IWMut3guCt2Syq9I4fWMtDb8UXl2pNHchYxTz7oqy0s"
           autoPlay
           loop
           muted
